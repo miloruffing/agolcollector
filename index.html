@@ -41,14 +41,14 @@
                 zoom: 8 // MapView converts this to its corresponding scale which is 112823780.660964
             });
 
-            const locateBtn = new Locate({
+        const locateBtn = new Locate({
           view: view
         });
 
         // Create featurelayer from feature service 
         const layer = new FeatureLayer({ 
         // URL to the service 
-        url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/survey123_32b3c6d6a95a41908f77c6e1f9c6bd70_results/FeatureServer" //Your item URL Goes Here
+            url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/survey123_32b3c6d6a95a41908f77c6e1f9c6bd70_results/FeatureServer/0" //Your item URL Goes Here
         });
 
         //adding layer to the map
